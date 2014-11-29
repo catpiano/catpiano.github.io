@@ -1,4 +1,4 @@
-lamusique.github.io
+username.github.io
 ===================
 
 my site
