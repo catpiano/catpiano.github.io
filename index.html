@@ -69,41 +69,87 @@
 
     <!--SNS-->
     <div style="margin: 1em;">
-      <!--Twitter-->
-      <div class="snsButton">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-text="Neko Piano site" data-via="nekopiano" data-size="large" data-related="nekopiano" data-hashtags="nekopiano">Tweet</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        <a href="https://twitter.com/nekopiano" class="twitter-follow-button" data-show-count="false">Follow @nekopiano</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+      <!--For this page specific-->
+      <div style="float: left">
+
+        <!--Tweet for this page-->
+        <div class="snsButton">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Neko Piano site" data-via="nekopiano" data-size="large" data-related="nekopiano" data-hashtags="nekopiano">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+
+        <!--Facebook like for this page-->
+        <div class="snsButton">
+          <div class="fb-like" data-href="http://www.nekopiano.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
+
+        <!--Google+ +1 button for this page-->
+        <div class="snsButton">
+          <!-- Place this tag where you want the +1 button to render. -->
+          <div class="g-plusone"></div>
+
+          <!-- Place this tag after the last +1 button tag. -->
+          <script type="text/javascript">
+            (function() {
+              var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+              po.src = 'https://apis.google.com/js/platform.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+          </script>
+        </div>
+
+        <!--Line-->
+        <div class="snsButton">
+          <span>
+            <script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
+            <script type="text/javascript">
+              new media_line_me.LineButton({"pc":false,"lang":"ja","type":"a"});
+            </script>
+          </span>
+        </div>
+
       </div>
-      <!--Facebook-->
-      <!-- <div style="position:relative; top:-10px; left:25px"> -->
-      <div class="snsButton">
-        <div class="fb-like" data-href="http://www.nekopiano.com/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+
+      <!--for SNS accounts-->
+      <div style="float: left">
+
+        <!--Twitter-->
+        <div class="snsButton">
+          <a href="https://twitter.com/nekopiano" class="twitter-follow-button" data-show-count="false">Follow @nekopiano</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+
+        <!--YouTube-->
+        <div class="snsButton">
+            <script src="https://apis.google.com/js/platform.js"></script>
+            <div class="g-ytsubscribe" data-channelid="UCt3w0qcdn0HdXh60QIHxQ1g" data-layout="full" data-count="default"></div>
+        </div>
+
+        <!--Google+-->
+        <div class="snsButton">
+          <!-- Place this tag where you want the widget to render. -->
+          <div class="g-page" data-width="273" data-href="//plus.google.com/u/0/113122990613310373292" data-layout="landscape" data-rel="publisher"></div>
+
+          <!-- Place this tag after the last widget tag. -->
+          <script type="text/javascript">
+            (function() {
+              var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+              po.src = 'https://apis.google.com/js/platform.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+          </script>
+        </div>
+
+        <!--Facebook-->
+        <div class="snsButton">
+          <div class="fb-like-box" data-href="https://www.facebook.com/nekopiano" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
+        </div>
+
       </div>
-      <!--Google+-->
-      <!-- <div style="position:relative; left:40px"> -->
-      <div class="snsButton">
-        <!-- Place this tag where you want the +1 button to render. -->
-        <div class="g-plusone"></div>
-        <!-- Place this tag after the last +1 button tag. -->
-        <script type="text/javascript">
-          (function() {
-            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-            po.src = 'https://apis.google.com/js/platform.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-          })();
-        </script>
-        <a href="https://plus.google.com/113122990613310373292" rel="publisher">Google+</a>
-      </div>
-      <!--Line-->
-      <div class="snsButton">
-        <script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
-        <script type="text/javascript">
-        new media_line_me.LineButton({"pc":false,"lang":"ja","type":"a","text":"ねこピアノのサイト Neko Piano","withUrl":true});
-        </script>
-      </div>
+
     </div>
+
 
     <!-- ad hoc div -->
     <div style="overflow: hidden; clear: both; margin: 1em;"> </div>
