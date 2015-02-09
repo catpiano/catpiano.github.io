@@ -6,26 +6,31 @@ img {
 	height: auto;
 }
 
-h1,h2,div {
+.default {
 	font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
 	letter-spacing: 0.01rem;
-	font-weight: 400;
+	font-weight: normal;
 	font-style: normal;
 	font-size: 22px;
-	line-height: 0.5;
+	line-height: 1;
 }
-      
+
 h1 {
+	font-weight: normal;
 	font-size: 35px;
+	line-height: 1;
 }
 
 h2 {
+	font-weight: normal;
 	font-size: 22px;
+	line-height: 0.5;
 }
 
 .normal {font-size: 22px;}
 
 .crop {
+	max-width: 100%
     width: 400px;
     height: 350px;
 	overflow: hidden;
