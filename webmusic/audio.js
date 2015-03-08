@@ -5,6 +5,7 @@ function init() {
     // Fix up for prefixing
     window.AudioContext = window.AudioContext||window.webkitAudioContext;
     context = new AudioContext();
+    context.createBufferSource().start(0)
   }
   catch(e) {
     alert('Web Audio API is not supported in this browser');
