@@ -29,7 +29,7 @@ function getOscillator() {
 }
 
 function terminateOscillator() {
-    getOscillator().stop();
+    getOscillator().stop(0);
     oscillator = undefined;
     sounding = false;
 }
