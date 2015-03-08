@@ -55,7 +55,7 @@ function play() {
     oscillator.connect(context.destination);
 //    currentTime = context.currentTime;
 //    oscillator.start(currentTime);
-    oscillator.start()
+    oscillator.start(0)
     //oscillator.stop(currentTime + 2); //stop after 2 second
     sounding = true;
 }
