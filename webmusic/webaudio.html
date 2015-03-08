@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="neko,cat,piano,Katze,Klavier,catpiano,KatzeKlavier,chatpiano,ねこ,猫,ネコ,ねこピアノ,猫ピアノ,ネコピアノ,(ΦωΦ),(ΦωΦ)ピアノ">
     <meta name="description" content="Neko Piano site. ねこピアノのサイトです。 (ΦωΦ)">
+    <!-- responsive -->
+    <meta name="viewport" content="initial-scale=1">
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Web Audio API playground - (ΦωΦ) Neko Piano - ねこピアノ</title>
     <link href="../responsive.css" rel="stylesheet" type="text/css">
@@ -31,10 +34,12 @@
       <div class="normal">
         <h2><p>Sine Tone</p></h2>
       </div>
-      <div class="padded"><input id="pitch" data-slider-id='ex1Slider' type="text" data-slider-min="20" data-slider-max="20000" data-slider-step="1" data-slider-value="440" scale="logarithmic"/>Hz</div>
       <div class="padded">
-        <div style="float: left;"><input type="button" value="Play" onclick="play();"></div>
-        <div><input type="button" value="Stop" onclick="stop();"></div>
+        <div class="normal"><input id="pitch" data-slider-id='ex1Slider' type="text" data-slider-min="20" data-slider-max="20000" data-slider-step="1" data-slider-value="440" scale="logarithmic"/>Hz</div>
+        <div class="normal">
+          <div style="float: left;"><input type="button" value="Play" onclick="play();"></div>
+          <div><input type="button" value="Stop" onclick="stop();"></div>
+        </div>
       </div>
     </div>
 
