@@ -29,6 +29,11 @@ h2 {
 
 .normal {font-size: 22px;}
 
+.padded {
+	font-size: 22px;
+	padding: 20%;
+}
+
 .crop {
 	max-width: 100%
     width: 400px;
@@ -60,5 +65,9 @@ h2 {
 	margin: 0.5em;
 }
 
-
-
+/* slider */
+#ex1Slider {
+	width: 400% !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
