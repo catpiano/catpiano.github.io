@@ -119,7 +119,8 @@ var slider = new Slider("#pitch", {
     tooltip: 'hide',
     ticks: [1,2,3,4,5,6,7,8,9,10,11,12,13],
     ticks_labels: ['C', 'D♭', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'A♭', 'A', 'B♭', 'B', 'C'],
-    ticks_snap_bounds: 1
+    ticks_snap_bounds: 1,
+    value: 9
 });
 
 // $('#ex1').bootstrapSlider({
