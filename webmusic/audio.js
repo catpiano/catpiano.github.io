@@ -1,3 +1,4 @@
+
 var context;
 //window.addEventListener('load', init, false);
 function init() {
@@ -43,6 +44,11 @@ function play() {
         console.log("now loading.");
         return;
     }
+
+    // Create a volume (gain) node
+    var gainNode = context.createGain();
+    gainNode.gain.value = 0.1;
+
 
     //var pitch = document.querySelector("#pitch")
     oscillator.frequency.value = pitchHz;
@@ -98,7 +104,8 @@ function stop() {
 
 // Without JQuery
 var slider = new Slider("#pitch", {
-  tooltip: 'always'
+  tooltip: 'always',
+  mode: 'logarithmic'
 });
 
 // $('#ex1').bootstrapSlider({
