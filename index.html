@@ -33,6 +33,10 @@
       ga('send', 'pageview');
     </script>
 
+    <!-- custom -->
+    <link rel="stylesheet" href="css/nekopiano.css" />
+
+
   </head>
 
   <body>
@@ -56,13 +60,15 @@
     </div>
 
     <div class="row">
+      <!-- left side-->
       <div class="large-6 columns">
-        <h2>Neko loves piano - Music and the Arts</h2>
-        <h2>ねこピアノのサイト。</h2>
+        <h3>Neko loves piano <small>- Music and the Arts</small></h2>
+        <h4>ねこピアノのサイト。</h2>
         <div>
+          <img src="./bowingcat.jpg"/>
         </div>
       </div>
-      <!--Right Side-->
+      <!-- right side -->
       <div class="large-6 columns">
         <!--affiliates-->
         <div style="position:relative; left:5em">
@@ -92,76 +98,84 @@
     <!-- SNS for nekopiano -->
     <div class="row">
       <div class="large-12 columns panel">
-        <div>Neko Piano SNS - ねこピアノ SNS</div>
+        <div class="widespace">Neko Piano SNS - ねこピアノ SNS</div>
 
-        <!--Twitter-->
-        <div class="large-3 columns">
-          <div>Twitter</div>
-          <div class="row">
-            <div>Official</div>
-            <a href="https://twitter.com/nekopiano" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @nekopiano</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <div class="row">
+
+          <!--Twitter-->
+          <div class="large-5 columns widespace twitterspace">
+            <!-- <div class="label">Twitter</div> -->
+            <div class="row">
+              <!-- <div class="label round">Official</div> -->
+              <a href="https://twitter.com/nekopiano" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @nekopiano</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
+            <div class="row">
+              <!-- <div class="label round">PR</div> -->
+              <a href="https://twitter.com/nekopiano_PR" class="twitter-follow-button" data-show-count="true" data-size="small">Follow @nekopiano</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
           </div>
-          <div class="row">
-            <div>PR</div>
-            <a href="https://twitter.com/nekopiano_PR" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @nekopiano</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+          <!--YouTube-->
+          <div class="large-5 columns end widespace">
+            <!-- <div class="label">YouTube</div> -->
+            <script src="https://apis.google.com/js/platform.js"></script>
+            <div class="g-ytsubscribe" data-channelid="UCt3w0qcdn0HdXh60QIHxQ1g" data-layout="full" data-count="default"></div>
           </div>
+
         </div>
+        <div class="row">
 
-        <!--YouTube-->
-        <div class="large-3 columns">
-          <div>YouTube</div>
-          <script src="https://apis.google.com/js/platform.js"></script>
-          <div class="g-ytsubscribe" data-channelid="UCt3w0qcdn0HdXh60QIHxQ1g" data-layout="full" data-count="default"></div>
-        </div>
+          <!--Google+-->
+          <div class="large-5 columns widespace">
+            <!-- <div  class="label">Google+</div> -->
+            <!-- Place this tag where you want the widget to render. -->
+            <div class="g-page" data-width="273" data-href="//plus.google.com/u/0/113122990613310373292" data-layout="landscape" data-rel="publisher"></div>
 
-        <!--Google+-->
-        <div class="large-4 columns">
-          <div>Google+</div>
-          <!-- Place this tag where you want the widget to render. -->
-          <div class="g-page" data-width="273" data-href="//plus.google.com/u/0/113122990613310373292" data-layout="landscape" data-rel="publisher"></div>
+            <!-- Place this tag after the last widget tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/platform.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
 
-          <!-- Place this tag after the last widget tag. -->
-          <script type="text/javascript">
-            (function() {
-              var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-              po.src = 'https://apis.google.com/js/platform.js';
-              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-            })();
-          </script>
-        </div>
+          <!--Facebook-->
+          <!-- <div class="label">Facebook</div> -->
+          <div class="large-5 columns end widespace">
+            <div class="fb-like-box" data-href="https://www.facebook.com/nekopiano" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
+          </div>
 
-        <!--Facebook-->
-        <div>Facebook</div>
-        <div class="large-2 columns">
-          <div class="fb-like-box" data-href="https://www.facebook.com/nekopiano" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
         </div>
 
       </div>
     </div>
 
+
     <!-- SNS for this page specific -->
     <div class="row">
       <div class="large-12 columns panel">
-        <div>For This Page - このページに</div>
+        <div class="widespace">For This Page - このページに</div>
 
         <!--Tweet for this page-->
         <div class="large-2 columns">
-          <div>Tweet this page</div>
+          <!-- <div class="label round">Tweet this page</div> -->
           <a href="https://twitter.com/share" class="twitter-share-button" data-text="Neko Piano site" data-via="nekopiano" data-size="large" data-related="nekopiano" data-hashtags="nekopiano">Tweet</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         </div>
 
         <!--Facebook like for this page-->
         <div class="large-2 columns">
-          <div>Like or share this page</div>
+          <!-- <div class="label round">Like or share this page</div> -->
           <div class="fb-like" data-href="http://www.nekopiano.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
         </div>
 
         <!--Google+ +1 button for this page-->
         <div class="large-2 columns">
-          <div>+1 this page</div>
+          <!-- <div class="label round">+1 this page</div> -->
           <!-- Place this tag where you want the +1 button to render. -->
           <div class="g-plusone"></div>
 
@@ -177,7 +191,7 @@
 
         <!--Line-->
         <div class="large-2 columns end">
-          <div>Share in Line (here only visible on smart phones)</div>
+          <!-- <div class="label round">Share in Line <br/><small>(here only visible on smart phones)</small></div> -->
           <span>
             <script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
             <script type="text/javascript">
@@ -235,7 +249,7 @@
     <!-- the credits -->
     <div class="row">
       <div class="large-8 columns panel">
-        <div>created by nekopiano, Neko Piano, 猫ピアノ, ねこピアノ, ネコピアノ, (ΦωΦ)</div>
+        <div>Created by nekopiano, Neko Piano, 猫ピアノ, ねこピアノ, ネコピアノ, (ΦωΦ), necopiano, Neco Piano</div>
       </div>
     </div>
 
